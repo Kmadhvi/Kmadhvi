@@ -1,0 +1,308 @@
+<?php 
+
+get_header();   ?>
+
+<div class="agt-user-cover" style="background-image:url('http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.jpg')"></div>
+<section class="agt-user-detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="user-deail-desp">
+                    <div class="row">
+                        <div class="col-md-2 pd-right0">
+                            <ul class="icon-list achivment-list">
+                                <li>
+                                   <i>
+                                       <img src="http://csm.demo1.bytestechnolab.com/wp-content/uploads/2021/04/trophy.png" alt="#"/>
+                                   </i>
+                                </li>
+                                 <li>
+                                     <i>
+                                       <img src="http://csm.demo1.bytestechnolab.com/wp-content/uploads/2021/04/star.png" alt="#"/>
+                                   </i>
+                                </li>
+                                 <li>
+                                    <i>
+                                       <img src="http://csm.demo1.bytestechnolab.com/wp-content/uploads/2021/04/computer-security-shield.png" alt="#"/>
+                                   </i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 agt-user_width">
+                            <div class="agt-user-info">
+                                <div class="agt-rating">
+                                    <ul class="star-rating_single"><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li></ul>
+                                    <span class="rating-count-agt">(3.21)</span>
+                                </div>
+                                <div class="agt-user-image">
+                                    <img alt="Tamara Carmack" title="Tamara Carmack" data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2021/01/author.jpg" class=" lazyloaded" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2021/01/author.jpg">
+                                </div>
+                                <div class="agt-button">
+                                    <a href="#" class="white-button">Request Appointment</a>
+                                    <a href="#" class="white-button">Request Information</a>
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="col-md-6 agt-about_width">
+                            <div class="agt-user-about">
+                                 <strong>UserName, Desig</strong>
+                                 <span class="busin_title">BusinessName</span>
+                                 <span>City, State</span>
+<!--
+                                 <form class="ser_form">
+                                     <input type="email" placeholder="emial@emial.com" name="email">
+                                 </form>
+-->
+                                <span class="email">emial@emial.com</span>
+                                 <p>Areas of expertise: Fiduciary, Chfebc, CLU, CHFC, CHFL <br>
+                                 Licensed In: AZ, NM, CA, MN, DE, MA
+                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row recent_main">
+                        <div class="col-md-2 pd-right0">
+                            <ul class="published-social-icon">
+                    <li><a href="javascript:void(0)"><span class="icon-twitter"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-facebook"></span></a></li>
+                </ul>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="about_agt agt-user-about">
+                                  <strong>About (UserName)</strong>
+                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row recent_main reviews-section">
+                        <div class="col-md-2 pd-right0">
+                             <ul class="star-rating_single"><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star"style="opacity: 0.3;" aria-hidden="true"></i></li><li><i class="fa fa-star" style="opacity: 0.3;" aria-hidden="true"></i></li></ul>
+                                   
+                        </div>
+                        <div class="col-md-10">
+                            <div class="about_agt agt-user-about">
+                                  <strong>Recent Reviews</strong>
+                                 <p>(DATE) „ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit. ” amet”„Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+                                 </p>
+                                  <div class="agt-button">
+                                    <a href="#" class="white-button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="row recent_main reviews-section mar_top0">
+                        <div class="col-md-2 pd-right0">
+                             <ul class="star-rating_single"><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star" aria-hidden="true"></i></li><li><i class="fa fa-star"style="opacity: 0.3;" aria-hidden="true"></i></li><li><i class="fa fa-star" style="opacity: 0.3;" aria-hidden="true"></i></li></ul>
+                                   
+                        </div>
+                        <div class="col-md-10">
+                            <div class="about_agt agt-user-about">
+                                 <p>(DATE) „ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit. ” amet”„Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+                                 </p>
+                                  <div class="agt-button">
+                                    <a href="#" class="white-button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="more_reviews">
+                                <span>More Reviews (144)</span>
+                                 <div class="agt-button">
+                                    <a href="#" class="white-button">Leave a Review</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="book_appointment">
+                     <div class="book_appoi">
+                        <h2 class="h2">
+                            Book an Appointment <br> with (UserName)
+                        </h2>
+                         <div class="cal-sec" style="height:500px">
+                            
+                         </div>
+                    </div>
+                </div>
+             
+                <div class="latest_safe_sec">
+                    <h3>Latest Safe Money eBooks</h3>
+               <div class="agt-ebook-slider owl-carousel owl-theme">
+                   <div class="owl-stage-outer">
+                      <div class="owl-stage">                        
+                             <div class="item">
+                               <div class="article-slide-img">
+                                  <a href="javacript:void(0)">
+                                     <img alt="Financial Strategies" loading="lazy"   src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_224/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2021/01/retirement-strategy.jpg">                                   
+                                  </a>
+                               </div>
+                               <div class="agt-button">
+                                  <a href="#" class="white-button">Read More</a>
+                               </div>
+                            </div>                                         
+                       </div>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="art-featuring-section">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="art_featu_title">
+                <h1>Published Content and Articles Featuring USername</h1>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="certified_art">
+                <h2> USername has been a Certified Safe Money contributor since DateofSignup</h2> 
+           </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="published_content">
+                <div class="published_main">
+                <div class="published-img">
+                    <figure>
+                    <img alt="Articles Featuring" title="Articles Featuring" data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png"  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png">
+                    </figure>
+                </div>
+                <ul class="published-social-icon">
+                    <li><a href="javascript:void(0)"><span class="icon-twitter"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-facebook"></span></a></li>
+                </ul>
+            </div>
+                <div class="published-text">
+                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</h3>
+                    <p>Lorem ipsum dolorsit amet, consec tetur adipiscing elit. Proin posuere, augue eget. lob. Aliquam erat. volutpat. Vestibulum risus sem, ultrices sed dapibus quis, feugiat non nisi enean id risus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="published_content">
+                <div class="published_main">
+                <div class="published-img">
+                    <figure>
+                    <img alt="Articles Featuring" title="Articles Featuring" data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png"  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png">
+                    </figure>
+                </div>
+                <ul class="published-social-icon">
+                    <li><a href="javascript:void(0)"><span class="icon-twitter"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-facebook"></span></a></li>
+                </ul>
+            </div>
+                <div class="published-text">
+                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</h3>
+                    <p>Lorem ipsum dolorsit amet, consec tetur adipiscing elit. Proin posuere, augue eget. lob. Aliquam erat. volutpat. Vestibulum risus sem, ultrices sed dapibus quis, feugiat non nisi enean id risus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="published_content">
+                <div class="published_main">
+                <div class="published-img">
+                    <figure>
+                    <img alt="Articles Featuring" title="Articles Featuring" data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png"  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png">
+                    </figure>
+                </div>
+                <ul class="published-social-icon">
+                    <li><a href="javascript:void(0)"><span class="icon-twitter"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-facebook"></span></a></li>
+                </ul>
+            </div>
+                <div class="published-text">
+                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</h3>
+                    <p>Lorem ipsum dolorsit amet, consec tetur adipiscing elit. Proin posuere, augue eget. lob. Aliquam erat. volutpat. Vestibulum risus sem, ultrices sed dapibus quis, feugiat non nisi enean id risus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="published_content">
+                <div class="published_main">
+                <div class="published-img">
+                    <figure>
+                    <img alt="Articles Featuring" title="Articles Featuring" data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png"  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png">
+                    </figure>
+                </div>
+                <ul class="published-social-icon">
+                    <li><a href="javascript:void(0)"><span class="icon-twitter"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-facebook"></span></a></li>
+                </ul>
+            </div>
+                <div class="published-text">
+                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</h3>
+                    <p>Lorem ipsum dolorsit amet, consec tetur adipiscing elit. Proin posuere, augue eget. lob. Aliquam erat. volutpat. Vestibulum risus sem, ultrices sed dapibus quis, feugiat non nisi enean id risus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="published_content">
+                <div class="published_main">
+                <div class="published-img">
+                    <figure>
+                    <img alt="Articles Featuring" title="Articles Featuring" data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png"  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png">
+                    </figure>
+                </div>
+                <ul class="published-social-icon">
+                    <li><a href="javascript:void(0)"><span class="icon-twitter"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-facebook"></span></a></li>
+                </ul>
+            </div>
+                <div class="published-text">
+                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</h3>
+                    <p>Lorem ipsum dolorsit amet, consec tetur adipiscing elit. Proin posuere, augue eget. lob. Aliquam erat. volutpat. Vestibulum risus sem, ultrices sed dapibus quis, feugiat non nisi enean id risus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="published_content">
+                <div class="published_main">
+                <div class="published-img">
+                    <figure>
+                    <img alt="Articles Featuring" title="Articles Featuring" data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png"  src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_632,h_334/http://csm.demo1.bytestechnolab.com/wp-content/uploads/2020/12/safe-money.png">
+                    </figure>
+                </div>
+                <ul class="published-social-icon">
+                    <li><a href="javascript:void(0)"><span class="icon-twitter"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="javascript:void(0)"><span class="icon-facebook"></span></a></li>
+                </ul>
+            </div>
+                <div class="published-text">
+                    <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</h3>
+                    <p>Lorem ipsum dolorsit amet, consec tetur adipiscing elit. Proin posuere, augue eget. lob. Aliquam erat. volutpat. Vestibulum risus sem, ultrices sed dapibus quis, feugiat non nisi enean id risus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <a href="javascript:void(0)" class="btn_mone">more</a>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="certifiedsafemoney-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-1">
+                <p>CertifiedSafeMoney.com and <FName LName> are unrelated entities. Content is the opinion of <br> the Author as of the date of publication. The Sponsor of this content and the Author may not be the same person.</p>
+                <p><UserName> Disclosure: Praesent vitae libero pulvinar, vehicula metus vitae, aliquet quam. Etiam ornare eu odio a accumsan. Nam in tempus ligula. Etiam et tellus justo. Sed auctor est <br> eu velit luctus, nec dapibus odio placerat. Proin id tellus nec purus pharetra dictum. Integer et orci malesuada, mattis est id, eleifend urna. Vivamus et ante id.</p>
+            <div>
+        <div>
+    <div>
+</section>
+<?php 
+//include('tellus-content.php');
+get_footer();

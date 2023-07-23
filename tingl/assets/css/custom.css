@@ -1,0 +1,31 @@
+.mobile_errormsg, 
+.otp_errormsg, 
+.name_errormsg,
+.gender_errormsg,
+.age_erromsg, 
+.pin_errormsg{
+    color: red;
+}
+.height_error{
+    color: red;
+}
+.error{
+    color: red;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+.woocommerce-account footer {
+    display: none;
+}
+
+ .allergies-list .select-money .text-checkbox [type="checkbox"]:not(:checked)+label {
+    text-decoration: none;
+    background: #e2e735;
+    padding: 12px 24px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    
+}

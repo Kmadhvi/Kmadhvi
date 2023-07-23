@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+  padding: 30px;
+  background: #fff;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
+}
+
+@media (max-width:675px){
+    .wrapper{
+        max-width: 300px;
+}
+}
+.wrapper header{
+  font-size: 22px;
+  font-weight: 600;
+}
+.wrapper .poll-area{
+  margin: 20px 0 15px 0;
+}
+.poll-area .column .poll {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  border: 2px solid #e6e6e6;
+  transition: all 0.2s ease;
+}
+/* 
+label.opt.selected { 
+    border: 2px solid #cf2d00;
+}
+
+div#pstyle::after {
+    background: #cf2d00 !important;
+}
+
+label.opt.selected .row .circle{
+    border-color: #cf2d00 !important;
+  }
+  
+  label.opt .row .circle::after{
+    background: #cf2d00 !important;
+  } */
+
+  label .row{
+  display: flex;
+  pointer-events: none;
+  justify-content: space-between;
+}
+label .row .column{
+  display: flex;
+  align-items: center;
+}
+/* label .row .circle{
+  height: 19px;
+  width: 19px;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+label .row .circle::after{
+  content: "";
+  height: 11px;
+  width: 11px;
+  border-radius: inherit;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  display: none;
+}
+.poll-area label:hover .row .circle::after{
+  display: block;
+  background: #e6e6e6;
+}
+label.selected .row .circle::after{
+  display: block;
+} */
+.row span{
+  font-size: 16px;
+  font-weight: 500;
+}
+.row .percent{
+  display: block;
+}
+/* label .progress{
+  height: 7px;
+  width: 100%;
+  position: relative;
+  background: #f0f0f0;
+  margin: 8px 0 3px 0;
+  border-radius: 30px;
+  display: none;
+  pointer-events: none;
+} */
+progress:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  background: #ccc;
+  width: calc(1% * var(--w));
+  border-radius: inherit;
+  transition: all 0.2s ease;
+}
+span.percent{
+  display: none;
+}
+.bar-con{
+  background-color:#ccc;
+  height:0.5em;
+  margin-bottom:1em;
+}
+.bar{
+  float:left;
+  height:100%;
+  width:0%;
+}
+.bar-main-1 .bar{
+  background-color:#014b31;
+}
+.bar-main-2 .bar{
+  background-color:#014b31;
+}
+.bar-main-3 .bar{
+  background-color:#014b31;
+}
+
+
+

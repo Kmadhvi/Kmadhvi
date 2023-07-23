@@ -1,0 +1,316 @@
+@media only screen and (max-width: 991px){
+    .banner-swiper .slider-detail {
+        margin-right: 0;
+    }
+    .banner-swiper .slider-detail h1{
+        font-size: 38px;
+        margin-right: 0;
+    }
+    .banner-swiper {
+        height: auto;
+        padding: 50px 0px;
+    }
+    .section-title h2{
+        font-size: 54px;
+    }
+    .menu-type .select-money .text-radio {
+        margin-bottom: 20px;
+    }
+    .menu-radio{
+        flex-wrap: wrap;
+    }
+    .menu-radio p{
+        padding: 5px;
+        margin-bottom: 0;
+    }
+    .subscribe-info-left {
+        background: rgba(226, 231, 53, 1);
+        padding: 20px 30px 0 30px;
+        border-radius: 20px 0px 0px 20px;
+        flex-shrink: 0;
+        max-width: 280px;
+    }
+    .subscribe-info-left li span {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 30px;
+        text-transform: lowercase;
+    }
+    .subscribe-info-left li img{
+        width: 50px;
+    }
+    .subscribe-info-left li{
+        padding: 10px 0px;
+    }
+    .subscribe-info{
+        padding-top: 50px;
+    }
+    .faq-accordian .accordion{
+        margin-right: 30px;
+    }
+    .faq-img{
+        display: none;
+    }
+    .day-trial a{
+        margin: 7px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .nav-mobile{
+        display: block;
+    }
+    /*.other-btn{
+        display: none;
+    }
+    .other-btn-mob{
+        display: block;
+    }*/
+    
+    .other-btn {
+        margin-right: 60px;
+        margin-left: 0;
+    }
+    .other-btn a.btn {
+        width: auto;
+        margin-right: 10px;
+        padding: 0 10px;
+        line-height: 40px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    button.navbar-toggler {
+        position: absolute;
+        right: 15px;
+    }
+    .navbar-brand img {
+        width: 70px;
+    }
+    .tingl-menu .navbar-collapse {
+        position: absolute;
+        background: #fff;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        top: 100%;
+    }
+    .tingl-menu .navbar-collapse .navbar-nav a{
+        border-bottom: 1px solid #ddd;
+    }
+    .topbar{
+        height: auto;
+        padding: 7px 0px;
+    }
+    .cart-menu{
+        width: auto;
+        right: 20px;
+        bottom: auto;
+    }
+    .location-select marquee{
+        width: 100%;
+    }
+    .banner-swiper .slider-detail{
+        margin-right: 0;
+    }
+    .banner-swiper{
+        height: auto;
+    }
+    .banner-swiper .slider-detail h1{
+        font-size: 37px;
+    }
+    .banner-img {
+        text-align: center;
+        padding: 20px 20px 50px;
+    }
+    .banner-img img.img-fluid {
+        max-width: 80%;
+    }
+    .topbar-right span{
+        font-size: 12px;
+    }
+    a.free-consultation-btn{
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+    .plan-carousel {
+        padding: 0 10%;
+    }
+    .meal-selection{
+        flex-wrap: wrap;
+    }
+    .custom-group-box{
+        flex-wrap: wrap;
+    }
+    .meal-plan-list{
+        margin-top: 75px;
+    }
+    .meal-plan-box{
+        margin-bottom: 30px;
+    }
+    .section-title h2{
+        font-size: 40px;
+    }
+    .custom-plan-box{
+        padding: 0;
+    }
+    div#slider-date .owl-nav {
+        width: 100%;
+        left: 0;
+    }
+    .menu-select select.form-select{
+        margin-bottom: 30px;
+    }
+    .menu-select{
+        padding: 20px 0px;
+    }
+    .menu-type .select-money{
+        text-align: center;
+    }
+    .menu-type .select-money .text-radio{
+        margin-bottom: 15px;
+    }
+    .menu-images{
+        padding-top: 20px;
+    }
+    .menu-images img.img-fluid {
+        max-height: 290px;
+    }
+    .menu-radio p {
+        padding: 0 10px;
+    }
+    .subscribe-info{
+        flex-wrap: wrap;
+    }
+    .successful-order{
+        width: 100%;
+        height: auto;
+    }
+    .subscribe-info {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+    .subscribe-info-left{
+        width: 100%;
+        border-radius: 20px;
+        margin-top: 150px;
+        max-width: 100%;
+        padding: 50px 50px 50px 40px;
+    }
+    .subscribe-info-left li img {
+        width: auto;
+    }
+    .subscribe-info-left li span {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: lowercase;
+    }
+    .subscribe-info-left li {
+        padding: 20px 0px;
+    }
+    .subscribe-easy{
+        padding: 50px 0px;
+    }
+    .testimonial-swiper {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .owl-nav{
+        width: 100%;
+        left: 0;
+    }
+    .instagram-section{
+        padding: 50px 0px;
+    }
+    .faq-accordian .accordion{
+        margin: 30px;
+    }
+    .faq-top {
+        padding-top: 50px;
+    }
+    .faq-img{
+        display: none;
+    }
+    .accordian-pagination{
+        margin: 30px;
+    }
+    section.we-promise {
+        padding: 50px 0px 50px;
+    }
+    .footer-social{
+        display: flex;
+    }
+    .footer-social div {
+        flex: 1;
+    }
+    .footer-logo img.img-fluid {
+        max-width: 120px;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 21px;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 21px;
+    }
+    .delivery-slot .form-group {
+        margin-bottom: 20px;
+    }
+    .checkout-details:before{
+        height: 77%;
+    }
+    .account-box{
+        flex-wrap: wrap;
+    }
+    section.checkout{
+        padding: 50px 0px;
+    }
+    .custom-plan-box .custom-right{
+        display: none;
+    }
+    .custom-plan-box .custom-left{
+        width: 100%;
+    }
+    .custom-plan-box .custom-plan-desc{
+        flex-direction: column;
+        text-align: center;
+    }
+    .custom-plan-box .days-meal{
+        justify-content: center;
+    }
+    .custom-plan-box .all-free-feature ul{
+        flex-direction: column;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main-content.bgoffwhite:before{
+        display: none;
+    }
+    .order-box{
+        flex-direction: column;
+    }
+    .order-box .order-img{
+        width: 100%;
+    }
+    .order-box .order-details{
+        margin-top: 10px;
+    }
+    .order-footer{
+        position: static;
+        margin-top: 10px;
+    }
+    .sidebar.active {
+        display: block;
+        position: fixed;
+        top: 115px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+@media only screen and (max-width: 440px){
+.testimonial-swiper .swiper-slide{
+    width: 320px;
+}
+}
