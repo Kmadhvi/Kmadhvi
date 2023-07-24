@@ -1,24 +1,23 @@
 <?php
 /* This file contains admin modifications */
 
-function custom_meta_boxes($post_type, $post)
-{
+function custom_meta_boxes() {
     add_meta_box('contributors-meta-box', __('Contributors '), 'contributor_meta_box_callback', array('post'), 'advanced', 'low');
 }
 add_action('add_meta_boxes', 'custom_meta_boxes', 10, 2);
 
-//Callback function of contributors metbox
-function contributor_meta_box_callback($post)
-{
+// Callback function of contributors metbox
+function contributor_meta_box_callback($post) {
     wp_nonce_field(basename(__FILE__), 'auth_nonce');
     $contributors_name = maybe_unserialize(get_post_meta($post->ID, 'author', true));
-?>
+    ?>
 
     <table class="form-table">
         <tbody>
             <tr>
                 <th scope="row">
                     <label for="contributors">Select Contributors</label>
+                </th>
                 <td>
                     <?php
                     $blog_authors = get_users(array('role__in' => array('author')));
@@ -29,25 +28,23 @@ function contributor_meta_box_callback($post)
                             $checked = 'checked="checked"';
                         } else {
                             $checked = null;
-                        } ?>
+                        }
+                    ?>
                         <p>
-                            <input type="checkbox" name="author[]" value="<?php echo $blog_author->ID; ?>" <?php echo $checked; ?> />
+                            <input type="checkbox" name="author[]" value="<?php echo $blog_author->ID; ?>" <?php echo esc_attr($checked); ?> />
                             <?php echo $blog_author->display_name; ?>
                         </p>
-
                     <?php } ?>
-                    </th>
                 </td>
             </tr>
         </tbody>
     </table>
-<?php
+    <?php
 }
 
-// Callback function save meta box of testimonial
+// Callback function save meta box of contributors
 add_action('save_post', 'contributors_save_meta_data');
-function contributors_save_meta_data($post_id)
-{
+function contributors_save_meta_data($post_id) {
 
     $is_autosave = wp_is_post_autosave($post_id);
     $is_revision = wp_is_post_revision($post_id);
@@ -57,12 +54,11 @@ function contributors_save_meta_data($post_id)
         return;
     }
 
-    // If the checkbox was not empty, save it as array in post meta
+    // If the checkbox was not empty, save it as an array in post meta
     if (!empty($_POST['author'])) {
         update_post_meta($post_id, 'author', $_POST['author']);
-
-        // Otherwise just delete it if its blank value.
     } else {
+        // Otherwise, just delete it if its blank value.
         delete_post_meta($post_id, 'author');
     }
 }
