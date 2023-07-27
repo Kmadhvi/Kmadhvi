@@ -86,9 +86,6 @@ function wpam_pro_install()
 
     if (empty($wpam_pro_options)) { // Check plugin version option
 
-        // Set default settings
-        wpam_pro_default_settings();
-
         // Update plugin version to option
         update_option('wpam_pro_plugin_version', '1.0');
     }
@@ -124,6 +121,7 @@ function wp_auth_manage_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'wp_auth_manage_scripts');
+
 add_filter('the_content', 'wp_auth_manage_add_before_page_content', -1);
 function wp_auth_manage_add_before_page_content($content)
 {
@@ -134,10 +132,10 @@ function wp_auth_manage_add_before_page_content($content)
         if (!empty($author_ids)) {
             $contributors_html = '<h2>Contributors</h2>';
             foreach ($author_ids as $id) {
-                $author_name        = get_the_author_meta('display_name', $id);
-                $author_meta        = get_the_author_meta('user_nicename', $id);
-                $author_posts_url   = get_author_posts_url($id, $author_meta);
-                $author_avatar_url  = get_avatar_url($id);
+                $author_name = get_the_author_meta('display_name', $id);
+                $author_meta = get_the_author_meta('user_nicename', $id);
+                $author_posts_url = get_author_posts_url($id, $author_meta);
+                $author_avatar_url = get_avatar_url($id);
 
                 $contributors_html .= '<a href="' . esc_url($author_posts_url) . '">';
 

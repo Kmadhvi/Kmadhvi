@@ -1,13 +1,13 @@
 <?php
 /* This file contains admin modifications */
 
-function custom_meta_boxes() {
-    add_meta_box('contributors-meta-box', __('Contributors '), 'contributor_meta_box_callback', array('post'), 'advanced', 'low');
+function wp_auth_manage_meta_boxes() {
+    add_meta_box('contributors-meta-box', __('Contributors '), 'wp_auth_manage_meta_boxes_contributor_meta_box_callback', array('post'), 'advanced', 'low');
 }
-add_action('add_meta_boxes', 'custom_meta_boxes', 10, 2);
+add_action('add_meta_boxes', 'wp_auth_manage_meta_boxes', 10, 2);
 
 // Callback function of contributors metbox
-function contributor_meta_box_callback($post) {
+function wp_auth_manage_meta_boxes_contributor_meta_box_callback($post) {
     wp_nonce_field(basename(__FILE__), 'auth_nonce');
     $contributors_name = maybe_unserialize(get_post_meta($post->ID, 'author', true));
     ?>
@@ -43,8 +43,8 @@ function contributor_meta_box_callback($post) {
 }
 
 // Callback function save meta box of contributors
-add_action('save_post', 'contributors_save_meta_data');
-function contributors_save_meta_data($post_id) {
+add_action('save_post', 'wp_auth_manage_contributors_save_meta_data');
+function wp_auth_manage_contributors_save_meta_data($post_id) {
 
     $is_autosave = wp_is_post_autosave($post_id);
     $is_revision = wp_is_post_revision($post_id);
